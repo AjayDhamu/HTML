@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Bill</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            padding: 40px;
+        }
+        .invoice-box{
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #eee;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        }
+        h1{
+            text-align: center;
+            color: #333;
+        }
+        .invoice-details{
+            margin-bottom: 20px;
+        }
+        .invoice-details p{
+            margin: 5px 0;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="invoice-box">
+        <h1>Invoice Bill</h1>
+    <div class="invoice-details">
+    <p><strong>Customer Name:</strong> Ajay</p>
+    <p><strong>Date:</strong> 18-Nov-2025</p>
+    <p><strong>Invoice #:</strong> Inv102</p>
+    </div>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Brake pad</td>
+            <td>Back Brake Pad Replacement</td>
+            <td>1</td>
+            <td>500</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>Oil Change</td>
+            <td>Engine oil replacement</td>
+            <td>1</td>
+            <td>₹800</td>
+            <td>₹800</td>
+        </tr>
+        <tr class="total-row">
+            <td colspan="4">Grand Total</td>
+            <td>1300</td>
+
+        </tr>
+    
+    </table>
+    <div class="footer">
+        Thank you for your business!
+    </div>
+</div>
+</body>
+</html>
